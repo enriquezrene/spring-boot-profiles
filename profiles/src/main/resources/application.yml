@@ -1,0 +1,14 @@
+spring:
+  profiles.active: prod
+---
+spring:
+  profiles: dev
+
+doge:
+  wow: 10
+
+---
+spring:
+   profiles: prod
+doge:
+  wow: 4
